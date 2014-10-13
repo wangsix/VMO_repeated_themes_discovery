@@ -12,13 +12,13 @@ email:chw160@ucsd.edu
 
 ## Contents ##
 * bin
-..* JKUPDD_experiment.py
-… The experiment script generating pattern discovery algorithm output files. 
-..* JKUPDD_time.py
-… The timing script.
+** JKUPDD_experiment.py
+	The experiment script generating pattern discovery algorithm output files. 
+** JKUPDD_time.py
+	The timing script.
 *notebook/JKUPDD_demo.ipynb
-.. A python notebook demonstrating how [vmo](https://github.com/wangsix/vmo) is used to find repeated themes from audio recordings.  
+	A python notebook demonstrating how [vmo](https://github.com/wangsix/vmo) is used to find repeated themes from audio recordings.  
 *JKUPDD-Aug2013
-.. The MIREX dataset.
+	The MIREX dataset.
 
 
