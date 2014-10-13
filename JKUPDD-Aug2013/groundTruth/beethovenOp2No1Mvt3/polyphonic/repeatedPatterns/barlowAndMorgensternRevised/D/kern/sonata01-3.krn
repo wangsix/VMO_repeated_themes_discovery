@@ -1,0 +1,44 @@
+!!!COM: Beethoven, Ludwig van
+!!!CDT: 1770///-1827///
+!!!OTL: Piano Sonata no. 1, mvmt. 3
+!!!OMD: Minuet: Allegretto
+!!!OPS: Op. 2
+!!!ONM: No. 1
+!!!OMV: No. 3
+!!!AGN: Minuet and Trio
+**kern	**dynam	**kern	**dynam
+*thru	*thru	*thru	*thru
+*Ipiano	*Ipiano	*Ipiano	*Ipiano
+!! Minuetto: Allegretto
+*>C	*>C	*>C	*>C
+*k[b-]	*k[b-]	*k[b-]	*k[b-]
+*M3/4	*M3/4	*M3/4	*M3/4
+4r	.	4c/	p
+=41	=41	=41	=41
+(4F\	.	(8a/L	.
+.	.	8g/	.
+4A\	.	8a/	.
+.	.	8f/	.
+4c\	.	8g/	.
+.	.	8a/J	.
+=42	=42	=42	=42
+4d\	.	8b-/L	.
+.	.	8a/	.
+4G\	.	8b-/	.
+.	.	8g/	.
+4F\	.	8a/	.
+.	.	8b/J	.
+=43	=43	=43	=43
+4E\	.	8cc\L	.
+.	.	8b\	.
+4G\	.	8cc\	.
+.	.	8dd\	.
+4c\	.	8cc\	.
+.	.	8b-\J	.
+=44	=44	=44	=44
+4F\	.	8a/L	.
+.	.	8g/	.
+4A\	.	8a/	.
+.	.	8b-/	.
+4c\)	.	8a/	.
+.	.	8f/J)	.

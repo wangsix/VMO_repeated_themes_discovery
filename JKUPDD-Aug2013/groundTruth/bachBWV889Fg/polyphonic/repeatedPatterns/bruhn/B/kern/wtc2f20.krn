@@ -1,0 +1,51 @@
+!!!COM: Bach, Johann Sebastian
+!!!OTA: Das wohltemperirte Clavier
+!!!OPR: Das wohltemperierte Klavier
+!!!OTL: Fuga 20, Vol. 2
+!!!XEN: The Well-Tempered Clavier, Volume 2, Fugue 20.
+!!!ONB: A minor, 3-part
+!!!SCT: BWV 889b
+!!!YEC: Copyright 1994, David Huron
+!!!YEM: Rights to all derivative electronic formats reserved.
+**kern
+*staff1
+*clefG2
+*k[]
+*M4/4
+*a:
+*MM84
+=6
+2r
+8r
+32a
+32gn
+32f
+32e
+8d
+32f
+32e
+32d
+32c
+=7
+32B
+32c
+[16d
+32d]
+32c
+32B
+32A
+32G#
+32A
+[16B
+32B]
+32A
+32G#
+32F#
+8.E
+32F#
+32G#
+8.G#T
+32F#
+32G#
+=8
+8A
