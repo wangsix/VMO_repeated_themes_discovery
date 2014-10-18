@@ -33,5 +33,5 @@ email:chw160@ucsd.edu
 
     * **jkupdd_patterns** Beat-synchronous chromagram, ground truth and the algorithm outputs.
 
-    * **chromagramAndRecurrencePlot** Beat-synchrounous chromagram and a recurrence plot extracted directly from the VMO symbolization results. The recurrence plot is depicted only for visualization purpose, and is not used during the pattern finding algorithm.
+    * **chromagramAndRecurrencePlot** Beat-synchrounous chromagram and a recurrence plot extracted directly from the VMO symbolization results. The recurrence plot is depicted only for visualization purpose, and is not used during the pattern finding algorithm. The pattern finding algorithm relies only on the suffix structure and values of longest repeated suffices from VMO.
 
