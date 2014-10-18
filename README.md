@@ -23,6 +23,15 @@ email:chw160@ucsd.edu
     A python notebook demonstrating how [vmo](https://github.com/wangsix/vmo) is used to find repeated themes from audio recordings.  
 * JKUPDD-Aug2013
 
-    The MIREX dataset.
+    The [MIREX dataset](http://www.music-ir.org/mirex/wiki/2014:Discovery_of_Repeated_Themes_%26_Sections).
 
+* supplementPlots
+
+    Folders corresponding to the five music pieces from the dataset have supplement plots not shown in the submitted paper.
+
+    * **irProfile** The information rate of different VMO created by different threshold values. The vmo with the highest information rate is used to find the repeated themes.
+
+    * **jkupdd_patterns** Beat-synchronous chromagram, ground truth and the algorithm outputs.
+
+    * **chromagramAndRecurrencePlot** Beat-synchrounous chromagram and a recurrence plot extracted directly from the VMO symbolization results. The recurrence plot is depicted only for visualization purpose, and is not used during the pattern finding algorithm.
 
