@@ -25,6 +25,10 @@ email:chw160@ucsd.edu
 
     The [MIREX dataset](http://www.music-ir.org/mirex/wiki/2014:Discovery_of_Repeated_Themes_%26_Sections).
 
+* estimation_20150201
+
+    The experiment results using the scripts. 
+
 * supplementPlots
 
     Folders corresponding to the five music pieces from the dataset have supplement plots not shown in the submitted paper.
