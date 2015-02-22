@@ -74,6 +74,7 @@ for ind in range(5):
         subbeats.extend(np.linspace(bs, be, num = 2, endpoint = False).astype('int').tolist())
     subbeats.extend(np.linspace(beats[-1], C.shape[1], num = 2, endpoint = False).astype('int').tolist())
     C_sync = librosa.feature.sync(C, subbeats, aggregate=np.median)
+    subbeats.append(C.shape[1])
     feature = np.log(C_sync+np.finfo(float).eps)
     feature = pre.normalize(feature)
     
