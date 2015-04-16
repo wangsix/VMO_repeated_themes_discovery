@@ -6,6 +6,7 @@ import vmo.analysis as van
 import vmo.VMO.utility as utl
 import matplotlib.pyplot as plt
 import sklearn.preprocessing as pre
+import scipy.stats as stats
 import os, itertools, csv, librosa, vmo, glob, functools
 
 
@@ -47,10 +48,9 @@ hop_size = 64
 feature_mat = []
 
 r = (0.0, 1.5, 0.01) 
-shift = 5
-step = 4
-trnspose_inv = functools.partial(utl.trnspose_inv, shift = shift, step = step)
-min_len = 5
+shift = 5 # Current optimal setting
+step = 3 # Current optimal setting
+trnspose_inv = functools.partial(utl.trnspose_inv, shift = shift, step = step) # Current optimal setting
 for ind in range(5):
 
     audio_test = audio_list[ind]
@@ -78,8 +78,11 @@ for ind in range(5):
                                 threshold = ideal_v_inv[0][1], 
                                 feature = 'chroma', dfunc = 'other', dfunc_handle = trnspose_inv)
     
-    ### Create Recurrence Plot with VMO
-            
+    ### Create code 
+    oracle_inv.encode()
+    code_len = [c[0] for c in oracle_inv.code if c[0] != 0]
+    
+        
     ### Gather Ground Truth from Dataset
         
     ground = np.zeros((len(audio_test['pattern']), audio_test['info'][2][1]-audio_test['info'][2][0]))
@@ -91,6 +94,10 @@ for ind in range(5):
             len_list.append(end-start)
             ground[i][start:end+1] = i+1
 #     min_len = int(min(len_list)*len(subbeats)/(audio_test['info'][2][1]-audio_test['info'][2][0])/2)+1
+#     min_len = int(np.mean(code_len))
+#     min_len = int(stats.hmean(np.array(oracle_inv.lrs)[np.where(np.array(oracle_inv.lrs) != 0)]))
+#     min_len = 5
+    min_len = int(np.mean(oracle_inv.lrs)/2) # Current optimal setting
     print min_len
     
     ### Extract Repeated Suffixes from VMO
@@ -103,7 +110,7 @@ for ind in range(5):
     for pttr in pattern:
         pttr_time = []
         for p in pttr[0]:
-            time = librosa.core.frames_to_time(np.array([subbeats[p-pttr[1]+1],subbeats[p]]), 
+            time = librosa.core.frames_to_time(np.array([subbeats[p-pttr[1]],subbeats[p-1]]), 
                                                 sr=sr, n_fft=fft_size, hop_length=hop_size)
             pttr_time.append(time)
         pattern_time.append(pttr_time)
