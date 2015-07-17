@@ -44,20 +44,22 @@ audio_list = [{'audio':[file_path+song+'/polyphonic/audio/'+a for a in os.listdi
                 for song, bpm, beat_range in zip(song_list, bpm_list, brange)]
 sr = 11025
 fft_size = 8192
-hop_size = 64
+# hop_size = 64
+hop_size = 128
 feature_mat = []
 
 r = (0.0, 1.5, 0.01) 
 shift = 5 # Current optimal setting
 step = 3 # Current optimal setting
+# step = 1
 trnspose_inv = functools.partial(utl.trnspose_inv, shift = shift, step = step) # Current optimal setting
 for ind in range(5):
 
     audio_test = audio_list[ind]
         
-    y, sr = librosa.load(audio_test['audio'], sr = 11025)
-    fft_size = 8192
-    hop_size = 64
+    y, sr = librosa.load(audio_test['audio'], sr = sr)
+#     fft_size = 8192
+#     hop_size = 128
     C = librosa.feature.chromagram(y=y, sr=sr, n_fft=fft_size, hop_length=hop_size)
     tempo, beats = librosa.beat.beat_track(y=y, sr=sr, hop_length=hop_size)
     
@@ -69,7 +71,7 @@ for ind in range(5):
     C_sync = librosa.feature.sync(C, subbeats, aggregate=np.median)
     subbeats.append(C.shape[1])
     feature = np.log(C_sync+np.finfo(float).eps)
-    feature = pre.normalize(feature)
+    feature = pre.normalize(feature, axis = 0)
     
     ### Create VMO     
     chroma_frames = feature.transpose()
@@ -98,6 +100,7 @@ for ind in range(5):
 #     min_len = int(stats.hmean(np.array(oracle_inv.lrs)[np.where(np.array(oracle_inv.lrs) != 0)]))
 #     min_len = 5
     min_len = int(np.mean(oracle_inv.lrs)/2) # Current optimal setting
+#     min_len = int(np.around(np.mean(code_len)))
     print min_len
     
     ### Extract Repeated Suffixes from VMO
