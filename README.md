@@ -1,7 +1,7 @@
 VMO_repeated_themes_discovery
 =============================
 
-Code repository for ICASSP 2015 submission on repeated themes discovery from audio recordings with VMO. Created and maintained by Cheng-i Wang. 
+Code repository for ICASSP 2015 & ISMIR 2015 submission on repeated themes discovery from audio recordings and MIDI with VMO. Created and maintained by Cheng-i Wang. Implementation by Cheng-i Wang and Jennifer Hsu. 
 
 email:chw160@ucsd.edu
 
@@ -25,7 +25,7 @@ email:chw160@ucsd.edu
 
     The [MIREX dataset](http://www.music-ir.org/mirex/wiki/2014:Discovery_of_Repeated_Themes_%26_Sections).
 
-* estimation_20150201
+* estimation_results
 
     The experiment results using the scripts. 
 
