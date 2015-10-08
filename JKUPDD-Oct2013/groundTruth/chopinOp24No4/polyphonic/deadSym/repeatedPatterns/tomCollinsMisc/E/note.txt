@@ -1,0 +1,1 @@
+Contains all and only those notes that form part of the 8-occurrence pattern. Not to be included in the ground truth, but I thought it was interesting to point out the differences between this and pattern B.

@@ -1,0 +1,78 @@
+!!!COM: Beethoven, Ludwig van
+!!!CDT: 1770///-1827///
+!!!OTL: Piano Sonata no. 1, mvmt. 3
+!!!OMD: Minuet: Allegretto
+!!!OPS: Op. 2
+!!!ONM: No. 1
+!!!OMV: No. 3
+!!!AGN: Minuet and Trio
+**kern	**dynam	**kern	**dynam
+*thru	*thru	*thru	*thru
+*Ipiano	*Ipiano	*Ipiano	*Ipiano
+!! Minuetto: Allegretto
+*>A	*>A	*>A	*>A
+*clefF4	*clefF4	*clefG2	*clefG2
+*k[b-e-a-d-]	*k[b-e-a-d-]	*k[b-e-a-d-]	*k[b-e-a-d-]
+*f:	*f:	*f:	*f:
+*M3/4	*M3/4	*M3/4	*M3/4
+*MM118	*MM118	*MM118	*MM118
+4r	.	4c'/ 4a-'/	p
+=1	=1	=1	=1
+4r	.	(4d-/ 4b-/	.
+4r	.	4B-/) 4g/	.
+4F\	.	4r	.
+=2	=2	=2	=2
+4r	.	(4c/ 4a-/	.
+4r	.	4A-/) 4f/	.
+4F\ (4A-\	.	(4c/ 4f/	.
+=3	=3	=3	=3
+4G\ 4B-\	.	4c/ 4e/	.
+4F\ 4A-\	.	4c/ 4f/	.
+4E\ 4G\)	.	4c/) 4g/	.
+=4	=4	=4	=4
+*	*	*^	*
+2F\ 2A-\	.	(4b-/	2c\	.
+.	.	4a-/)	.	.
+4r	.	4e-/ 4cc/	4r	.
+*	*	*v	*v	*
+=5	=5	=5	=5
+4r	.	(4f/ 4dd-/	.
+4r	.	4d-/) 4b-/	.
+4AA-\ 4A-\	.	4r	.
+=6	=6	=6	=6
+4r	.	(4e-/ 4cc/	.
+4r	.	4c/) 4a-/	.
+4A-\ (4c\	.	(4e-/ 4a-/	.
+=7	=7	=7	=7
+4B-\ 4d-\	.	4e-/ 4g/	.
+4A-\ 4c\	.	4e-/ 4a-/	.
+4G\ 4B-\)	.	4e-/) 4b-/	.
+=8	=8	=8	=8
+*	*	*^	*
+2A-\ 2c\	.	(4dd-/	2e-\	.
+.	.	4cc/)	.	f
+4c\ (4e-\	.	4ee-/	(4a-\	.
+=9	=9	=9	=9	=9
+4B-\ 4d-\	.	4ee-/	4g\	.
+4A-\ 4c\	.	4ee-/	4a-\	.
+4G\ 4B-\)	.	4ee-/	4b-\)	.
+=10	=10	=10	=10	=10
+2A-\	.	2ee-/	(4dd-\	.
+.	.	.	4cc\)	.
+4D-\ 4B-\	.	4ry	4ff\	p
+*	*	*v	*v	*
+=11	=11	=11	=11
+2E-\ 2c\	.	(2a-/	.
+.	.	ccQ/	.
+4E-\ 4d-\	.	4g/) 4b-/	.
+=12	=12	=12	=12
+4A-\ 4c\	.	4a-/	.
+4r	.	4r	.
+4r	.	(8gg\L	.
+.	.	8ff\J)	.
+=13	=13	=13	=13
+2E-\ 2c\	.	(2a-/	.
+.	.	ccQ/	.
+4E-\ 4d-\	.	4g/) 4b-/	.
+=14	=14	=14	=14
+4A-\ 4c\	.	4a-/	.

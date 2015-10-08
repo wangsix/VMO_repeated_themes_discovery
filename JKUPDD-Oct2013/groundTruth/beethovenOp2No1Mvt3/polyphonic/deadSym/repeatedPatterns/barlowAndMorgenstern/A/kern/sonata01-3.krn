@@ -1,0 +1,35 @@
+MM192!!!COM: Beethoven, Ludwig van
+!!!CDT: 1770///-1827///
+!!!OTL: Piano Sonata no. 1, mvmt. 3
+!!!OMD: Minuet: Allegretto
+!!!OPS: Op. 2
+!!!ONM: No. 1
+!!!OMV: No. 3
+!!!AGN: Minuet and Trio
+**kern	**dynam
+*thru	*thru
+*Ipiano	*Ipiano
+!! Minuetto: Allegretto
+*>A	*>A
+*clefG2	*clefG2
+*k[b-e-a-d-]	*k[b-e-a-d-]
+*f:	*f:
+*M3/4	*M3/4
+*MM192	*MM192
+4a-'/	p
+=1	=1
+4b-/	.
+4g/	.
+4r	.
+=2	=2
+4a-/	.
+4f/	.
+4f/	.
+=3	=3
+4e/	.
+4f/	.
+4g/	.
+=4	=4
+*	*
+(4b-/	.
+4a-/)	.

@@ -1,0 +1,172 @@
+!!!COM: Mozart, Wolfgang Amadeus
+!!!CDT: 1756/01/27/-1791/12/05/
+!!!CNT: German
+!!!OTL: Piano Sonata No. 4 in E-flat major
+!!!SCT1: K<sup>1</sup> 282
+!!!SCT2: K<sup>6</sup> 189g
+!!!OMV: Mvmt. 2
+!!!OMD: Menuetto I & II
+!!!ODT: 1774///
+**kern	**kern	**dynam
+*thru	*thru	*thru
+*staff2	*staff1	*staff1/2
+*clefF4	*clefG2	*clefG2
+*>C	*>C	*>C
+!! Menuetto II
+*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]
+*E-:	*E-:	*E-:
+*M3/4	*M3/4	*M3/4
+*MM120	*MM120	*MM120
+=	=	=
+4r	(16b-\LL	p
+.	16cc\	.
+.	16b-\	.
+.	16an\JJ	.
+*clefG2	*	*
+=33	=33	=33
+*^	*	*
+4g/	8e-\L	4b-\)	.
+.	8B-\	.	.
+4g/	8e-\	8r	.
+.	8B-\	16r	.
+.	.	(16b-\LK	.
+4g/	8e-\	8.ee-\)	.
+.	8B-\J	.	.
+.	.	16ee-'\Jk	.
+=34	=34	=34	=34
+4a-/	8f\L	(4ee-\	f
+.	8B-\	.	.
+4a-/	8f\	4dd\)	.
+.	8B-\	.	.
+4a-/	8f\	(16b-\LL	p
+.	.	16cc\	.
+.	8B-\J	16b-\	.
+.	.	16an\JJ	.
+=35	=35	=35	=35
+4g/	8e-\L	4b-\)	.
+.	8B-\	.	.
+4g/	8e-\	8r	.
+.	8B-\	16r	.
+.	.	(16b-\LK	.
+4g/	8e-\	8.gg\)	.
+.	8B-\J	.	.
+.	.	16gg'\Jk	.
+=36	=36	=36	=36
+4f/	8d\L	(4bb-\	f
+.	8B-\	.	.
+4f/	8d\	4aa-\)	.
+.	8B-\	.	.
+4f/	8d\	16aa-\LL	.
+.	.	16bb-\	.
+.	8B-\J	16aa-\	.
+.	.	16ff\JJ	.
+*v	*v	*	*
+=37	=37	=37
+4e-/	(16gg\LL	.
+.	16aa-\	.
+.	16gg\	.
+.	16ee-\JJ	.
+4r	12bb-\L	.
+.	12aa-\	.
+.	12gg\J	.
+*clefF4	*	*
+4GG/ 4G/	12ff\L	.
+.	12ee-\	.
+.	12dd-\J	.
+=38	=38	=38
+4AA-\ 4A-\	(16cc\LL	.
+.	16dd-\)	.
+.	16cc\	.
+.	16a-\JJ)	.
+4r	(12ccc\L	.
+.	12bb-\	.
+.	12aa-\J	.
+4B-\ 4d-\	12gg\L	.
+.	12ff\	.
+.	12een\J	.
+=39	=39	=39
+*^	*	*
+4A-\ 4c\	2r	16ff\LL	.
+.	.	16gg\	.
+.	.	16ff\	.
+.	.	16cc\JJ)	.
+4r	.	(12ccc\L	.
+.	.	12bb-\	.
+.	.	12aa-\J	.
+*v	*v	*	*
+*clefG2	*	*
+*^	*	*
+4An\	12e-/L	12gg\L	.
+.	12f/	12ff\	.
+.	12g/J	12ee-\J)	.
+=40	=40	=40	=40
+(4g/	2B-\	(4ee-\	.
+4f/)	.	4ddn\)	.
+(8B-/L	4r	(16ff\LL	p
+.	.	16gg\	.
+8f/J)	.	16ff\	.
+.	.	16dd\JJ	.
+*v	*v	*	*
+=41	=41	=41
+(8c/L	4ee-'\)	.
+8f/	.	.
+8e-/	4cc'\	.
+8f/)	.	.
+(8e-/	(16aan\LL	f
+.	16bb-\	.
+8f/J)	16aa\	.
+.	16ff\JJ	.
+=42	=42	=42
+(8d/L	4bb-\	.
+8f/	.	.
+8B-/	4ddd\)	.
+8f/)	.	.
+(8B-/	(16ff\LL	p
+.	16gg\	.
+8f/J)	16ff\	.
+.	16dd\JJ	.
+=43	=43	=43
+(8c/L	4ee-'\)	.
+8f/	.	.
+8e-/	4cc'\	.
+8f/)	.	.
+(8e-/	(16aan\LL	f
+.	16bb-\	.
+8f/J)	16aa\	.
+.	16ff\JJ	.
+=44	=44	=44
+(8d/L	4bb-\	.
+8f/J)	.	.
+4B-'/	4ddd\)	.
+4r	(16ccc\LL	p
+.	16bb-\	.
+.	16aan\	.
+.	16gg\JJ)	.
+*clefF4	*	*
+=45	=45	=45
+4r	(8gg\L	.
+.	8ff\J)	.
+4D\ 4B-\	4ff\	.
+4D\ 4B-\	(16gg\LL	.
+.	16ff\	.
+.	16ee-\	.
+.	16dd\JJ)	.
+=46	=46	=46
+4r	(8dd\L	.
+.	8cc\J)	.
+(4E-\ 4B-\	4cc\	.
+4En\) 4B-\	4cc\	.
+=47	=47	=47
+*^	*	*
+(32B-/LLL	4F\	(32dd\LLL	f
+32c/JJ	.	32ee-\JJ	.
+8.d/J)	.	8.ff\J)	.
+4r	4r	4r	.
+(16d/LL	4F\	(16ff\LL	p
+16c/	.	16ee-\	.
+16B-/	.	16dd\	.
+16An/JJ)	.	16cc\JJ	.
+*v	*v	*	*
+=48	=48	=48
+4B-\	4b-\)	.
+4BB-/	4r	.

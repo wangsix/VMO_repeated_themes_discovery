@@ -1,0 +1,1 @@
+Patterns C and D are not 'missing' from this ground truth. For the monophonic version there was no need to revise the patterns A and B annotated by Barlow and Morgenstern (whereas there was for the polyphonic version, hence C and D there). 

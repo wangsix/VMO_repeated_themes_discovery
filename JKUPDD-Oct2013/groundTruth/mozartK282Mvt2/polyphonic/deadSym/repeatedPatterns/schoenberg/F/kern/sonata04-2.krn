@@ -1,0 +1,29 @@
+!!!COM: Mozart, Wolfgang Amadeus
+!!!CDT: 1756/01/27/-1791/12/05/
+!!!CNT: German
+!!!OTL: Piano Sonata No. 4 in E-flat major
+!!!SCT1: K<sup>1</sup> 282
+!!!SCT2: K<sup>6</sup> 189g
+!!!OMV: Mvmt. 2
+!!!OMD: Menuetto I & II
+!!!ODT: 1774///
+**kern	**kern	**dynam
+*thru	*thru	*thru
+*staff2	*staff1	*staff1/2
+*>A	*>A	*>A
+*clefF4	*clefG2	*clefG2
+*k[b-e-]	*k[b-e-]	*k[b-e-]
+*B-:	*B-:	*B-:
+*M3/4	*M3/4	*M3/4
+*MM120	*MM120	*MM120
+!! Menuetto I
+*^	*	*
+(8.B-/L	4r	(8.dd\L	f
+16c/Jk)	.	16ee-\Jk)	.
+=5	=5	=5	=5
+(8d/L	2.F\	(8ff\L	.
+(8e-/	.	8gg\	.
+8c/	.	8ee-\	.
+8A/	.	8cc\	.
+8B-/	.	8dd\	.
+8c/J)	.	8ee-\J)	.
