@@ -1,6 +1,6 @@
 
 
-## Discovery of repeated themes - Test with VMO
+# Discovery of repeated themes - Test with VMO
 import numpy as np
 import vmo.analysis as van
 import vmo.VMO.utility as utl
@@ -16,6 +16,7 @@ brange = [[1,110],[-1,555],[-1, 556],[1, 80],[-1,526]]
 pattern_list = ['barlowAndMorgensternRevised', 'bruhn','schoenberg','sectionalRepetitions','tomCollins']
 
 # Define Dataset Parser & Transpose Invariant Distance Function
+
 
 def get_occurence(f_path, pattern_list):
     f = itertools.chain.from_iterable([[_f+'/'+c+'/occurrences/csv/' for c in os.listdir(f_path+_f+'/') if not c.startswith('.')]
@@ -57,7 +58,7 @@ for ind in range(5):
     y, sr = librosa.load(audio_test['audio'], sr = sr)
 #     fft_size = 8192
 #     hop_size = 128
-    C = librosa.feature.chromagram(y=y, sr=sr, n_fft=fft_size, hop_length=hop_size)
+    C = librosa.feature.chroma_cqt(y=y, sr=sr, hop_length=hop_size)
     tempo, beats = librosa.beat.beat_track(y=y, sr=sr, hop_length=hop_size)
     
     ### Sub-Beat-Synchronous Chromagram
@@ -65,7 +66,7 @@ for ind in range(5):
     for bs, be in zip(beats[:-1],beats[1:]):
         subbeats.extend(np.linspace(bs, be, num=2, endpoint = False).astype('int').tolist())
     subbeats.extend(np.linspace(beats[-1], C.shape[1], num=2, endpoint=False).astype('int').tolist())
-    C_sync = librosa.feature.sync(C, subbeats, aggregate=np.median)
+    C_sync = librosa.util.sync(C, subbeats, aggregate=np.median)
     subbeats.append(C.shape[1])
     feature = np.log(C_sync+np.finfo(float).eps)
     feature = pre.normalize(feature, axis=0)
@@ -93,7 +94,7 @@ for ind in range(5):
 #     min_len = int(stats.hmean(np.array(oracle_inv.lrs)[np.where(np.array(oracle_inv.lrs) != 0)]))
 #     min_len = 5
     min_len = int(np.mean(oracle_inv.lrs)/2) # Current optimal setting
-#     print min_len
+
     ### Extract Repeated Suffixes from VMO
     
     pattern = van.find_repeated_patterns(oracle_inv, lower=min_len)
