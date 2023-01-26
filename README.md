@@ -3,7 +3,7 @@ VMO_repeated_themes_discovery
 
 Code repository for ICASSP 2015 & ISMIR 2015 submission on repeated themes discovery from audio recordings and MIDI with VMO. Created and maintained by Cheng-i Wang. Implementation by Cheng-i Wang and Jennifer Hsu. 
 
-email:chw160@ucsd.edu
+email:wangsix@gmail.com
 
 ## Dependencies
 * [vmo](https://github.com/wangsix/vmo) 
